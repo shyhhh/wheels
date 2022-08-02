@@ -1,6 +1,6 @@
 # 基于对象风格封装
 
-  提供 window.dom 为全局对象
+  提供 window.dom 为全局对象 [源代码](https://github.com/shyhhh/wheels/blob/main/dom/dom.js)
 
 ```shell
   ## 增
@@ -9,9 +9,11 @@
   dom.before(currentNode, newNode)
   dom.append(parent, node)
   dom.wrap(node, parent)
+
   ## 顺
   dom.remove(node)
   dom.empty(node)
+
   ## 改
   dom.attr(node, name, value)
   dom.text(node, string)
@@ -22,6 +24,7 @@
   dom.has(node, className)
   dom.on(node, eventName, fn)
   dom.off(node, eventName, fn)
+
   ## 查
   dom.find(selector, scope)
   dom.parent(node)
