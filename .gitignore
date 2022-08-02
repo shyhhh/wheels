@@ -1,0 +1,7 @@
+.cache/
+.parcel-cache/
+.vscode/
+node_modules/
+.DS_Store/
+.idea/
+.history/
