@@ -1,20 +1,20 @@
 # 基于对象风格封装
 
-  提供 window.dom 为全局对象 [源代码](https://github.com/shyhhh/wheels/blob/main/dom/dom.js)
+  提供 window.dom 全局对象 [源代码](https://github.com/shyhhh/wheels/blob/main/dom/dom.js)
 
 ```shell
-  ## 增
+  # 增
   dom.create(string)
   dom.after(currentNode, newNode)
   dom.before(currentNode, newNode)
   dom.append(parent, node)
   dom.wrap(node, parent)
 
-  ## 顺
+  # 顺
   dom.remove(node)
   dom.empty(node)
 
-  ## 改
+  # 改
   dom.attr(node, name, value)
   dom.text(node, string)
   dom.html(node, string)
@@ -25,7 +25,7 @@
   dom.on(node, eventName, fn)
   dom.off(node, eventName, fn)
 
-  ## 查
+  # 查
   dom.find(selector, scope)
   dom.parent(node)
   dom.children(node)
