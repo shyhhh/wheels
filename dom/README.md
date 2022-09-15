@@ -10,7 +10,7 @@
   dom.append(parent, node)
   dom.wrap(node, parent)
 
-  # 顺
+  # 删
   dom.remove(node)
   dom.empty(node)
 
